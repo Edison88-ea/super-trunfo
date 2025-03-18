@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 int main(){
-
     // variáveis para armazenar os dados
     char estado;
     char codigo_carta[4];
@@ -19,7 +18,7 @@ int main(){
     printf("Nome da Cidade: \n");
     scanf(" %s", cidade);
     printf("População: \n");
-    scanf("%i", &populacao);
+    scanf("%d", &populacao);
     printf("Área: km² \n");
     scanf("%f", &area);
     printf("PIB: R$ \n");
@@ -33,7 +32,7 @@ int main(){
     printf("Estado: %c\n", estado);
     printf("Código: %s\n", codigo_carta);
     printf("Nome da cidade: %s\n", cidade);
-    printf("População: %i\n", populacao);
+    printf("População: %d\n", populacao);
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f\n", pib);
     printf("Número de Pontos Turísticos: %.d\n", pontos_turisticos);
@@ -47,7 +46,7 @@ int main(){
     printf("Nome da Cidade: \n");
     scanf(" %s", cidade);
     printf("População: \n");
-    scanf("%i", &populacao);
+    scanf("%d", &populacao);
     printf("Área: km² \n");
     scanf("%f", &area);
     printf("PIB: R$ \n");
@@ -61,7 +60,7 @@ int main(){
     printf("Estado: %c\n", estado);
     printf("Código: %s\n", codigo_carta);
     printf("Nome da cidade: %s\n", cidade);
-    printf("População: %i\n", populacao);
+    printf("População: %d\n", populacao);
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f\n", pib);
     printf("Número de Pontos Turísticos: %.d\n", pontos_turisticos);
