@@ -100,7 +100,7 @@ int main(){
     // Comparação das cartas 
     printf("Comparação das cartas:\n");
 
-    // Operadores lógicos, estruturas de comparações das cartas!
+    // Estrutura de comparação das cartas!
 
     // Comparando a populção
     if(populacao > populacao1){
