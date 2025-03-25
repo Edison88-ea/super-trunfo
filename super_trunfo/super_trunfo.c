@@ -99,6 +99,7 @@ int main(){
 
 
     // Estrutura de comparação das cartas!
+    // Criando o menu
     printf("*** ESCOLHA QUAL ATRIBUTO DE COMPARAÇÃO ***\n");
     printf("1. População:\n ");
     printf("2. Área:\n ");
