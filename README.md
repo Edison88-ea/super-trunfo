@@ -9,6 +9,9 @@
 - Código da carta (ex: S01, R02)
 
 - Nome da cidade
+    ## Dica
+    Para cidades com nomes compostos, use:
+    "SãoPaulo" (junto)
 
 - População
 
@@ -20,11 +23,14 @@
 
 2 -  Em seguida, repita o processo para a segunda carta
 
-3 - Após cadastrar as duas cartas, um menu será exibido com opções de atributos para comparação
+ ### Comparação Avançada
 
-4 - Escolha o atributo pelo número correspondente (1 a 7)
+O sistema mostrará um menu dinâmico para seleção do primeiro atributo (1-7)
 
-5 - O programa mostrará qual carta venceu na comparação ou se houve empate
+Escolha um atributo digitando o número correspondente
+
+Em seguida, escolha um segundo atributo diferente (o menu não mostrará o primeiro escolhido, caso ainda sim escolha o mesmo, o programa usara a população como padrão para comparação!)
+
 
 *** Atributos disponíveis para comparação ***
 
@@ -42,57 +48,62 @@
 
 7. Super Poder: Soma de todos os atributos (maior valor vence)
 
-*** Exemplo de uso ***
 
-# Para nomes de cidades com espaços, digite sem espaços ou substitua por underline (ex: "RioDeJaneiro")
+   ### NOVAS FUNCIONALIDADES 
 
---- Vamos começar inserindo os dados da primeira carta --- 
-Digite a primeira letra do nome do Estado: 
-S
-Código da carta(A letra do estado seguido de um número ex: S01, A02, B03): 
-S01
-Nome da Cidade: 
-SãoPaulo
-População: 
-12300000
-Área: km² 
-1521
-PIB: R$ 
-500000000000
-Pontos Turísticos: 
-50
+Comparação com Dois Atributos:
 
-[O programa mostrará os dados calculados da primeira carta]
+Agora você pode selecionar 2 características diferentes para comparar
 
---- Vamos começar inserindo os dados da segunda carta --- 
-Digite a primeira letra do nome do Estado: 
-R
-Código da carta(A letra do estado seguido de um número ex: S01, A02, B03): 
-R01
-Nome da Cidade: 
-RioDeJaneiro
-População: 
-6748000
-Área: km² 
-1200
-PIB: R$ 
-300000000000
-Pontos Turísticos: 
-45
+O sistema mostra quem venceu em cada atributo
 
-[O programa mostrará os dados calculados da segunda carta]
+Sistema de Pontuação:
 
-*** ESCOLHA QUAL ATRIBUTO DE COMPARAÇÃO ***
-1. População:
-2. Área:
-3. PIB:
-4. Pontos Turísticos:
-5. Densidade Populacional:
-6. PIB per capita:
-7. Super Poder:
-Escolha: 1
+Cada vitória em um atributo vale 1 ponto
 
-Atributo de comparação: *** POPULAÇÃO ***
-Carta 1 - SãoPaulo: 12300000.000000
-Carta 2 - RioDeJaneiro: 6748000.000000
-Carta 1 VENCE!!!
+O vencedor final é decidido pela soma dos pontos
+
+### Menus Inteligentes:
+
+O segundo menu não mostra o atributo já selecionado
+
+Se tentar escolher o mesmo atributo duas vezes, o programa corrige automaticamente
+
+Relatório Detalhado:
+
+Mostra todos os cálculos intermediários
+
+Apresenta uma comparação clara entre as carta
+
+--- Dados da Primeira Carta ---
+Estado: S
+Código: S01
+Cidade: SãoPaulo
+População: 12.300.000
+Área: 1.521 km²
+PIB: R$ 500 bilhões
+Pontos Turísticos: 50
+
+--- Dados da Segunda Carta ---
+Estado: R
+Código: R01
+Cidade: RioDeJaneiro
+População: 6.748.000
+Área: 1.200 km²
+PIB: R$ 300 bilhões
+Pontos Turísticos: 45
+
+*** COMPARAÇÃO ***
+
+Atributo 1: POPULAÇÃO
+SãoPaulo: 12.300.000 vs RioDeJaneiro: 6.748.000 → SãoPaulo vence!
+
+Atributo 2: PONTOS TURÍSTICOS
+SãoPaulo: 50 vs RioDeJaneiro: 45 → SãoPaulo vence!
+
+SOMA DOS ATRIBUTOS:
+SãoPaulo: 12.300.050
+RioDeJaneiro: 6.748.045
+
+RESULTADO FINAL:
+SãoPaulo VENCE com 12.300.050 pontos!
